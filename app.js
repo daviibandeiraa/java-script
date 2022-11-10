@@ -51,4 +51,15 @@ console.log(typeof salvar)
 console.log(10>3) // maior
 console.log(5<3) // menor
 console.log(15 >= 10) //maior ou igual
-console.log()
+console.log( 10 <= 10) //menor ou igual
+console.log(10 == 10) //igual
+console.log(10 != 10) //diferente
+
+/* operadores lógicos */
+console.log( '=======' )
+console.log(10>3 && 10>15) // Operador E - com todas as expressões devem ser verdadeiras para o resultado ser verdadeiro
+
+console.log(10>3 || 10>15 || 10>8) // Operador OU (OR) - com operador OU apenas uma expressão precisa ser verdadeira para o resultado ser verdadeiro
+
+console.log(!10>3) // Operador NÃO(NOT) - o operador NOT inverte o resultado da expressão, se for verdadeiro ele inverte para falso e se for falso ele inverte para verdadeiro
+
