@@ -47,3 +47,8 @@ let salvar = function(){
 }
 console.log(typeof salvar)
 
+/* operadores relacionais */
+console.log(10>3) // maior
+console.log(5<3) // menor
+console.log(15 >= 10) //maior ou igual
+console.log()
